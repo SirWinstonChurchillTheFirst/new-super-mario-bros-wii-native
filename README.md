@@ -13,7 +13,7 @@ storage, controllers) is provided by the [wii-recomp runtime](https://github.com
 
 Tested with **SMNP01** (Europe (PAL), revision 2).
 
-Boots, creates its save, plays the opening cutscene and the world map, and enters level 1-1 with the sideways Wii Remote layout. 60 fps on both machines. All four of the game's code modules run as native code. Tested on Windows 11 (RTX 3070 Ti) and on a Linux mini PC (Ryzen 3 4350GE, Vega 6) with scripted inputs; nothing here says the game is playable to the end.
+Played into level 1-1 (running, jumping, enemies): 60 fps, no graphics errors seen. Tested on Windows 11 by playing into the first real scene; on the Linux mini PC through the menus. Nothing here says the game is playable to the end.
 
 Only what is written here has been tested. It has not been played to the end. Other regions
 or revisions may work but are untested.
@@ -67,7 +67,7 @@ Hold the remote sideways: in `controllers.ini` set `sideways = yes` and `attachm
 ## How it's made
 
 - Runtime: [https://github.com/SirWinstonChurchillTheFirst/wii-recomp](https://github.com/SirWinstonChurchillTheFirst/wii-recomp) (branch `windows-port`, tested at
-  `365a8af5ab6f`), a fork of [Zontex/wii-recomp](https://github.com/Zontex/wii-recomp) with
+  `f26aef3318ad`), a fork of [Zontex/wii-recomp](https://github.com/Zontex/wii-recomp) with
   Windows support and the fixes this game needed. GPL-3.0-or-later.
 - Hardware behaviour follows [Dolphin](https://dolphin-emu.org) where noted in the runtime's
   CREDITS.md.
