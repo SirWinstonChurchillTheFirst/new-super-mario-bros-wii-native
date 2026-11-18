@@ -20,7 +20,7 @@ storage, controllers) is provided by the [wii-recomp runtime](https://github.com
 
 Tested with **SMNP01** (Europe (PAL), revision 2).
 
-Played into level 1-1 (running, jumping, enemies): 60 fps, no graphics errors seen. Tested on Windows 11 and on the Linux mini PC by playing into the first real scene (mini PC: level 1-1, 59.9 fps, no frame over 34 ms). Nothing here says the game is playable to the end.
+Played into level 1-1 (running, jumping, enemies): 60 fps, no graphics errors seen, music without gaps. Tested on Windows 11 (title to the world map with the current runtime version) and on the Linux mini PC by playing level 1-1 (2 frames of about 2,000 over 20 ms, at scene changes, where the game itself is busy). Nothing here says the game is playable to the end.
 
 Only what is written here has been tested. It has not been played to the end. Other regions
 or revisions may work but are untested.
@@ -36,7 +36,7 @@ The same 90-second run on both machines: started from the disc, the same scripte
 | Machine | Average fps | 1 % low fps | Busy | Frames over 20 ms |
 |---|---|---|---|---|
 | High budget: Windows 11, Intel Core i7-13700KF, NVIDIA GeForce RTX 3070 Ti, 32 GB | 60.0 | 48.3 | 15.9 % | 0.63 % |
-| Low budget: Batocera Linux mini PC (HP), AMD Ryzen 3 PRO 4350GE with Radeon Vega 6 graphics, 8 GB | 59.9 | 53.4 | 28.0 % | 0.12 % |
+| Low budget: Batocera Linux mini PC (HP), AMD Ryzen 3 PRO 4350GE with Radeon Vega 6 graphics, 8 GB | 59.9 | 54.5 | 19.5 % | 0.09 % |
 
 ## Build and play
 
@@ -74,7 +74,7 @@ Hold the remote sideways: in `controllers.ini` set `sideways = yes` and `attachm
 ## How it's made
 
 - Runtime: [https://github.com/SirWinstonChurchillTheFirst/wii-recomp](https://github.com/SirWinstonChurchillTheFirst/wii-recomp) (branch `windows-port`, tested at
-  `25ee096b1378`), a fork of [Zontex/wii-recomp](https://github.com/Zontex/wii-recomp) with
+  `3367ea407700`), a fork of [Zontex/wii-recomp](https://github.com/Zontex/wii-recomp) with
   Windows support and the fixes this game needed. GPL-3.0-or-later.
 - Hardware behaviour follows [Dolphin](https://dolphin-emu.org) where noted in the runtime's
   CREDITS.md.

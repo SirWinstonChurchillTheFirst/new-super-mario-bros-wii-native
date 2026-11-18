@@ -32,5 +32,5 @@
       "url": "https://ko-fi.com/krogger"
     }
   ],
-  "notes": "Played into level 1-1 (running, jumping, enemies): 60 fps, no graphics errors seen. Tested on Windows 11 and on the Linux mini PC by playing into the first real scene (mini PC: level 1-1, 59.9 fps, no frame over 34 ms). Nothing here says the game is playable to the end. Built with AI assistance (Claude)."
+  "notes": "Played into level 1-1 (running, jumping, enemies): 60 fps, no graphics errors seen, music without gaps. Tested on Windows 11 (title to the world map with the current runtime version) and on the Linux mini PC by playing level 1-1 (2 frames of about 2,000 over 20 ms, at scene changes, where the game itself is busy). Nothing here says the game is playable to the end. Built with AI assistance (Claude)."
 }
